@@ -8,8 +8,10 @@ from PIL import Image
 
 path_testpng = "F:/code/python/P_ML_handwritten_number/"
 
+path_2 = "F:/code/python/P_web_spider/ecnu_vericodes/single_nums/"
 
-img = Image.open(path_testpng+"8_4.png")
+
+img = Image.open(path_testpng+"new_6.png")
 
 #img.show()
 
