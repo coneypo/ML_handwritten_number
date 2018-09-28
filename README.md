@@ -2,7 +2,7 @@
 
 Steps:
 >	1. Generate handwritten numbers  
->> ```generate_folders.py``` &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 为数字 1-9 建立文件夹
+>> ```generate_folders.py``` &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 为数字 1-9 建立文件夹            &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;               
 >> ```generate_handwritten_numbers.py```  &nbsp; &nbsp;  &nbsp;  生成手写体数字
 
 >	2. Get features from number 1 to 9 
