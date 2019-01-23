@@ -64,10 +64,13 @@ def save_features_to_CSV():
 
                     # 处理读取单个图像文件提取特征
                     img = Image.open(path_images + "num_" + str(i)+"/" + num_list[j])
+                    print("分析:", num_list[j])
+                    # print("数字:", num_list[j][0])
+                    # print('\n')
                     get_features_single(img)
                     pixel_cnt_list.append(num_list[j][0])
 
-                    # 写入CSV
+                    # 写入 CSV
                     writer.writerow(pixel_cnt_list)
             print('\n')
         print("样本总数:", sum_images)

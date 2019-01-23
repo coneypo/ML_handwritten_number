@@ -10,7 +10,7 @@
 from sklearn.externals import joblib
 from PIL import Image
 
-img = Image.open("../test/test_1.png")
+img = Image.open("../test/test_5.png")
 
 # Get features
 from generate_datebase import get_features
@@ -21,20 +21,19 @@ path_saved_models = "../data/data_models/"
 # LR
 LR = joblib.load(path_saved_models + "model_LR.m")
 predict_LR = LR.predict([features_test_png])
-print("LR:", predict_LR[0])
+print("LR   predict:", predict_LR[0])
 
 # LSVC
 LSVC = joblib.load(path_saved_models + "model_LSVC.m")
 predict_LSVC = LSVC.predict([features_test_png])
-print("LSVC:", predict_LSVC[0])
+print("LSVC predict:", predict_LSVC[0])
 
 # MLPC
 MLPC = joblib.load(path_saved_models + "model_MLPC.m")
 predict_MLPC = MLPC.predict([features_test_png])
-print("MLPC:", predict_MLPC[0])
+print("MLPC predict:", predict_MLPC[0])
 
 # SGDC
 SGDC = joblib.load(path_saved_models + "model_SGDC.m")
 predict_SGDC = SGDC.predict([features_test_png])
-print("SGDC:", predict_SGDC[0])
-
+print("SGDC predict:", predict_SGDC[0])
